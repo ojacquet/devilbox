@@ -3,7 +3,7 @@
 .. _syncronize_container_permissions:
 
 ********************************
-Syncronize container permissions
+Synchronize container permissions
 ********************************
 
 One main problem with a running Docker container is to **synchronize the ownership of files in a
@@ -11,7 +11,7 @@ mounted volume** in order to preserve security (Not having to use ``chmod 0777``
 
 This problem will be addressed below by using a PHP-FPM docker image as an example.
 
-Unsyncronized permissions
+Unsynchronized permissions
 =========================
 
 Consider the following directory structure of a mounted volume. Your hosts computer uid/gid are
